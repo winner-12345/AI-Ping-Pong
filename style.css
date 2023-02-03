@@ -1,0 +1,44 @@
+
+.heading{
+    width: 100%;
+    text-align: left;
+}
+.heading h3{
+    display: inline;
+}
+.heading button{
+    float: right;
+    border: 1px solid white;
+}
+image{
+    width: 100%;
+}
+#start,#status{
+    font-size: 22px;
+}
+.modal-dialog{
+    width: 90%;
+}
+
+h4{
+    background-color: whitesmoke;
+    line-height: 2;
+    margin: 0px;
+}
+#canvas 
+  {
+    border:5px solid rgb(6, 60, 29);
+    border-radius:20px;
+    margin-top:150px;
+    box-shadow:5px 5px 5px grey;
+    box-shadow: 1px 1px 38px #ffffff;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+
+  from {box-shadow: 1px 1px 38px grey;}
+  to {box-shadow: 1px 1px 38px white;}
+
+}
